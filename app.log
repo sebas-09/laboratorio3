@@ -1,0 +1,195 @@
+2025-02-11 10:05:58,649 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 10:05:58,649 - [33mPress CTRL+C to quit[0m
+2025-02-11 10:05:58,657 -  * Restarting with stat
+2025-02-11 10:06:01,536 -  * Debugger is active!
+2025-02-11 10:06:01,562 -  * Debugger PIN: 120-895-121
+2025-02-11 10:06:44,943 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 10:06:44,944 - [33mPress CTRL+C to quit[0m
+2025-02-11 10:06:44,951 -  * Restarting with stat
+2025-02-11 10:06:46,545 -  * Debugger is active!
+2025-02-11 10:06:46,561 -  * Debugger PIN: 120-895-121
+2025-02-11 10:08:16,130 - Usuario registrado: juan@example.com
+2025-02-11 10:08:16,130 - 127.0.0.1 - - [11/Feb/2025 10:08:16] "[35m[1mPOST /registro HTTP/1.1[0m" 201 -
+2025-02-11 10:08:50,013 - Inicio de sesión exitoso para usuario juan@example.com
+2025-02-11 10:08:50,016 - 127.0.0.1 - - [11/Feb/2025 10:08:50] "POST /login HTTP/1.1" 200 -
+2025-02-11 10:11:30,919 - Nuevo viaje creado: Madrid el 2025-08-15
+2025-02-11 10:11:30,920 - 127.0.0.1 - - [11/Feb/2025 10:11:30] "[35m[1mPOST /crear_viaje HTTP/1.1[0m" 201 -
+2025-02-11 10:12:28,761 - Usuario 1 reservó el viaje 1
+2025-02-11 10:12:28,765 - 127.0.0.1 - - [11/Feb/2025 10:12:28] "[35m[1mPOST /reservar HTTP/1.1[0m" 201 -
+2025-02-11 10:13:05,292 - 127.0.0.1 - - [11/Feb/2025 10:13:05] "[31m[1mDELETE /cancelar_reserva/1 HTTP/1.1[0m" 401 -
+2025-02-11 10:13:17,413 - Usuario 1 canceló la reserva 1
+2025-02-11 10:13:17,414 - 127.0.0.1 - - [11/Feb/2025 10:13:17] "DELETE /cancelar_reserva/1 HTTP/1.1" 200 -
+2025-02-11 10:17:47,198 -  * Detected change in 'c:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DSEGURO\\taller\\app.py', reloading
+2025-02-11 10:17:47,391 -  * Restarting with stat
+2025-02-11 10:17:50,550 -  * Debugger is active!
+2025-02-11 10:17:50,573 -  * Debugger PIN: 120-895-121
+2025-02-11 10:18:31,474 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 10:18:31,474 - [33mPress CTRL+C to quit[0m
+2025-02-11 10:18:31,481 -  * Restarting with stat
+2025-02-11 10:18:33,758 -  * Debugger is active!
+2025-02-11 10:18:33,773 -  * Debugger PIN: 120-895-121
+2025-02-11 10:18:47,321 - 127.0.0.1 - - [11/Feb/2025 10:18:47] "GET /viajes HTTP/1.1" 200 -
+2025-02-11 10:21:37,634 -  * Detected change in 'c:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DSEGURO\\taller\\app.py', reloading
+2025-02-11 10:21:37,809 -  * Restarting with stat
+2025-02-11 10:21:40,021 -  * Debugger is active!
+2025-02-11 10:21:40,042 -  * Debugger PIN: 120-895-121
+2025-02-11 10:21:44,262 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 10:21:44,263 - [33mPress CTRL+C to quit[0m
+2025-02-11 10:21:44,266 -  * Restarting with stat
+2025-02-11 10:21:45,952 -  * Debugger is active!
+2025-02-11 10:21:45,970 -  * Debugger PIN: 120-895-121
+2025-02-11 10:22:23,385 - 127.0.0.1 - - [11/Feb/2025 10:22:23] "GET /buscar_viajes?destino=Madrid&min_precio=500&max_precio=1500 HTTP/1.1" 200 -
+2025-02-11 10:22:37,230 - 127.0.0.1 - - [11/Feb/2025 10:22:37] "GET /buscar_viajes?destino=Madrid&min_precio=500&max_precio=1500 HTTP/1.1" 200 -
+2025-02-11 10:22:56,024 - Nuevo viaje creado: Paris el 2025-08-15
+2025-02-11 10:22:56,024 - 127.0.0.1 - - [11/Feb/2025 10:22:56] "[35m[1mPOST /crear_viaje HTTP/1.1[0m" 201 -
+2025-02-11 10:23:07,642 - 127.0.0.1 - - [11/Feb/2025 10:23:07] "GET /buscar_viajes?destino=Madrid&min_precio=500&max_precio=1500 HTTP/1.1" 200 -
+2025-02-11 10:23:19,327 - 127.0.0.1 - - [11/Feb/2025 10:23:19] "GET /buscar_viajes?&min_precio=500&max_precio=1500 HTTP/1.1" 200 -
+2025-02-11 10:23:43,731 - 127.0.0.1 - - [11/Feb/2025 10:23:43] "GET /buscar_viajes HTTP/1.1" 200 -
+2025-02-11 10:24:03,589 - 127.0.0.1 - - [11/Feb/2025 10:24:03] "GET /buscar_viajes?fecha=2025-06-10&min_precio=900&max_precio=2000 HTTP/1.1" 200 -
+2025-02-11 10:24:24,549 - 127.0.0.1 - - [11/Feb/2025 10:24:24] "GET /buscar_viajes?fecha=2025-08-15&min_precio=900&max_precio=2000 HTTP/1.1" 200 -
+2025-02-11 10:24:30,747 - 127.0.0.1 - - [11/Feb/2025 10:24:30] "GET /buscar_viajes?fecha=2025-08-10&min_precio=900&max_precio=2000 HTTP/1.1" 200 -
+2025-02-11 10:24:38,501 - 127.0.0.1 - - [11/Feb/2025 10:24:38] "GET /buscar_viajes?fecha=2025-08-15&min_precio=900&max_precio=2000 HTTP/1.1" 200 -
+2025-02-11 10:26:06,437 - 127.0.0.1 - - [11/Feb/2025 10:26:06] "[31m[1mPOST /reservar HTTP/1.1[0m" 401 -
+2025-02-11 10:26:13,658 - Inicio de sesión exitoso para usuario juan@example.com
+2025-02-11 10:26:13,662 - 127.0.0.1 - - [11/Feb/2025 10:26:13] "POST /login HTTP/1.1" 200 -
+2025-02-11 10:26:28,664 - 127.0.0.1 - - [11/Feb/2025 10:26:28] "GET /buscar_viajes HTTP/1.1" 200 -
+2025-02-11 10:26:39,524 - 127.0.0.1 - - [11/Feb/2025 10:26:39] "GET /viajes HTTP/1.1" 200 -
+2025-02-11 10:27:31,974 - 127.0.0.1 - - [11/Feb/2025 10:27:31] "[31m[1mPOST /reservar HTTP/1.1[0m" 401 -
+2025-02-11 10:28:15,579 - Usuario 1 reservó el viaje 1
+2025-02-11 10:28:15,583 - 127.0.0.1 - - [11/Feb/2025 10:28:15] "[35m[1mPOST /reservar HTTP/1.1[0m" 201 -
+2025-02-11 12:24:19,122 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-11 12:24:19,123 - [33mPress CTRL+C to quit[0m
+2025-02-11 12:24:19,133 -  * Restarting with stat
+2025-02-11 12:24:24,461 -  * Debugger is active!
+2025-02-11 12:24:24,478 -  * Debugger PIN: 120-895-121
+2025-02-11 12:24:33,342 - Inicio de sesión exitoso para usuario juan@example.com
+2025-02-11 12:24:33,345 - 127.0.0.1 - - [11/Feb/2025 12:24:33] "POST /login HTTP/1.1" 200 -
+2025-02-11 12:25:03,118 - Nuevo viaje creado: Orlando el 2025-08-15
+2025-02-11 12:25:03,119 - 127.0.0.1 - - [11/Feb/2025 12:25:03] "[35m[1mPOST /crear_viaje HTTP/1.1[0m" 201 -
+2025-02-12 16:05:13,115 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-12 16:05:13,116 - [33mPress CTRL+C to quit[0m
+2025-02-12 16:05:13,131 -  * Restarting with stat
+2025-02-12 16:05:25,143 -  * Debugger is active!
+2025-02-12 16:05:25,194 -  * Debugger PIN: 120-895-121
+2025-02-12 16:05:57,653 - Usuario registrado: sebas.tian5@live.com
+2025-02-12 16:05:57,654 - 127.0.0.1 - - [12/Feb/2025 16:05:57] "[35m[1mPOST /registro HTTP/1.1[0m" 201 -
+2025-02-12 16:06:16,531 - Inicio de sesión exitoso para usuario sebas.tian5@live.com
+2025-02-12 16:06:16,533 - 127.0.0.1 - - [12/Feb/2025 16:06:16] "POST /login HTTP/1.1" 200 -
+2025-02-12 16:06:29,388 - 127.0.0.1 - - [12/Feb/2025 16:06:29] "GET /viajes HTTP/1.1" 200 -
+2025-02-12 16:06:48,700 - 127.0.0.1 - - [12/Feb/2025 16:06:48] "[35m[1mPOST /reservar HTTP/1.1[0m" 500 -
+2025-02-12 16:11:47,443 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-12 16:11:47,443 - [33mPress CTRL+C to quit[0m
+2025-02-12 16:11:47,446 -  * Restarting with stat
+2025-02-12 16:11:48,922 -  * Debugger is active!
+2025-02-12 16:11:48,955 -  * Debugger PIN: 120-895-121
+2025-02-12 16:12:02,284 - 127.0.0.1 - - [12/Feb/2025 16:12:02] "[35m[1mPOST /reservar HTTP/1.1[0m" 201 -
+2025-02-12 16:13:26,765 - 127.0.0.1 - - [12/Feb/2025 16:13:26] "[35m[1mDELETE /cancelar_reserva/3 HTTP/1.1[0m" 500 -
+2025-02-12 16:14:36,751 - 127.0.0.1 - - [12/Feb/2025 16:14:36] "[33mDELETE /cancelar_reserva/1 HTTP/1.1[0m" 404 -
+2025-02-12 16:14:43,836 - 127.0.0.1 - - [12/Feb/2025 16:14:43] "[33mDELETE /cancelar_reserva/3 HTTP/1.1[0m" 404 -
+2025-02-12 16:15:03,770 - 127.0.0.1 - - [12/Feb/2025 16:15:03] "[33mDELETE /cancelar_reserva/3 HTTP/1.1[0m" 404 -
+2025-02-12 16:15:12,852 - 127.0.0.1 - - [12/Feb/2025 16:15:12] "[35m[1mDELETE /cancelar_reserva/4 HTTP/1.1[0m" 500 -
+2025-02-12 16:17:24,200 - 127.0.0.1 - - [12/Feb/2025 16:17:24] "[35m[1mPOST /reservar HTTP/1.1[0m" 201 -
+2025-02-12 16:17:59,769 - 127.0.0.1 - - [12/Feb/2025 16:17:59] "[35m[1mDELETE /cancelar_reserva/5 HTTP/1.1[0m" 500 -
+2025-02-12 16:22:12,165 -  * Detected change in 'c:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DSEGURO\\taller\\app.py', reloading
+2025-02-12 16:22:12,467 -  * Restarting with stat
+2025-02-12 16:22:14,567 -  * Debugger is active!
+2025-02-12 16:22:14,585 -  * Debugger PIN: 120-895-121
+2025-02-12 16:23:04,857 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-12 16:23:04,858 - [33mPress CTRL+C to quit[0m
+2025-02-12 16:23:04,863 -  * Restarting with stat
+2025-02-12 16:23:06,780 -  * Debugger is active!
+2025-02-12 16:23:06,797 -  * Debugger PIN: 120-895-121
+2025-02-12 16:23:16,469 - 127.0.0.1 - - [12/Feb/2025 16:23:16] "[31m[1mPOST /reservar HTTP/1.1[0m" 401 -
+2025-02-12 16:23:22,800 - Inicio de sesión exitoso para usuario sebas.tian5@live.com
+2025-02-12 16:23:22,804 - 127.0.0.1 - - [12/Feb/2025 16:23:22] "POST /login HTTP/1.1" 200 -
+2025-02-12 16:23:45,520 - 127.0.0.1 - - [12/Feb/2025 16:23:45] "[35m[1mPOST /reservar HTTP/1.1[0m" 201 -
+2025-02-12 16:24:22,538 - 127.0.0.1 - - [12/Feb/2025 16:24:22] "DELETE /cancelar_reserva/6 HTTP/1.1" 200 -
+2025-02-12 18:28:36,117 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-12 18:28:36,117 - [33mPress CTRL+C to quit[0m
+2025-02-12 18:28:36,131 -  * Restarting with stat
+2025-02-12 18:28:38,368 -  * Debugger is active!
+2025-02-12 18:28:38,405 -  * Debugger PIN: 120-895-121
+2025-02-12 18:38:51,554 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-12 18:38:51,554 - [33mPress CTRL+C to quit[0m
+2025-02-12 18:38:51,558 -  * Restarting with stat
+2025-02-12 18:38:52,919 -  * Debugger is active!
+2025-02-12 18:38:52,936 -  * Debugger PIN: 120-895-121
+2025-02-12 18:40:33,083 -  * Detected change in 'c:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DSEGURO\\taller\\test_app.py', reloading
+2025-02-12 18:40:33,315 -  * Restarting with stat
+2025-02-12 18:40:35,712 -  * Debugger is active!
+2025-02-12 18:40:35,731 -  * Debugger PIN: 120-895-121
+2025-02-12 18:44:00,956 -  * Detected change in 'c:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DSEGURO\\taller\\test_app.py', reloading
+2025-02-12 18:44:01,151 -  * Restarting with stat
+2025-02-12 18:45:08,103 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-12 18:45:08,105 - [33mPress CTRL+C to quit[0m
+2025-02-12 18:45:08,112 -  * Restarting with stat
+2025-02-12 18:45:09,467 -  * Debugger is active!
+2025-02-12 18:45:09,481 -  * Debugger PIN: 120-895-121
+2025-02-12 18:46:22,740 -  * Detected change in 'c:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DSEGURO\\taller\\app.py', reloading
+2025-02-12 18:46:22,900 -  * Restarting with stat
+2025-02-12 18:46:26,080 -  * Debugger is active!
+2025-02-12 18:46:26,116 -  * Debugger PIN: 120-895-121
+2025-02-12 19:07:42,693 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-12 19:07:42,694 - [33mPress CTRL+C to quit[0m
+2025-02-12 19:07:42,697 -  * Restarting with stat
+2025-02-12 19:07:44,363 -  * Debugger is active!
+2025-02-12 19:07:44,380 -  * Debugger PIN: 120-895-121
+2025-02-12 19:08:39,253 - Inicio de sesión exitoso para usuario sebas.tian5@live.com
+2025-02-12 19:08:39,256 - 127.0.0.1 - - [12/Feb/2025 19:08:39] "POST /login HTTP/1.1" 200 -
+2025-02-12 19:09:58,495 - 127.0.0.1 - - [12/Feb/2025 19:09:58] "GET /mis_reservas HTTP/1.1" 200 -
+2025-02-12 19:10:42,111 -  * Detected change in 'c:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DSEGURO\\taller\\test_app.py', reloading
+2025-02-12 19:10:42,383 -  * Restarting with stat
+2025-02-12 19:10:44,331 -  * Debugger is active!
+2025-02-12 19:10:44,352 -  * Debugger PIN: 120-895-121
+2025-02-12 19:11:25,398 -  * Detected change in 'c:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DSEGURO\\taller\\test_app.py', reloading
+2025-02-12 19:11:25,618 -  * Restarting with stat
+2025-02-12 19:11:27,703 -  * Debugger is active!
+2025-02-12 19:11:27,723 -  * Debugger PIN: 120-895-121
+2025-02-12 19:13:27,287 -  * Detected change in 'c:\\Users\\Sebastian\\Desktop\\UNIVERSIDAD\\DSEGURO\\taller\\test_app.py', reloading
+2025-02-12 19:13:27,526 -  * Restarting with stat
+2025-02-12 19:13:31,233 -  * Debugger is active!
+2025-02-12 19:13:31,264 -  * Debugger PIN: 120-895-121
+2025-02-13 07:31:07,003 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-13 07:31:07,004 - [33mPress CTRL+C to quit[0m
+2025-02-13 07:31:07,004 -  * Restarting with stat
+2025-02-13 07:31:07,193 -  * Debugger is active!
+2025-02-13 07:31:07,199 -  * Debugger PIN: 511-610-300
+2025-02-13 07:34:14,598 -  * Detected change in '/Users/dark/Downloads/taller-2/app.py', reloading
+2025-02-13 07:34:14,658 -  * Restarting with stat
+2025-02-13 07:34:14,953 -  * Debugger is active!
+2025-02-13 07:34:14,957 -  * Debugger PIN: 511-610-300
+2025-02-13 07:34:17,005 -  * Detected change in '/Users/dark/Downloads/taller-2/app.py', reloading
+2025-02-13 07:34:17,062 -  * Restarting with stat
+2025-02-13 07:42:37,535 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-13 07:42:37,535 - [33mPress CTRL+C to quit[0m
+2025-02-13 07:42:37,535 -  * Restarting with stat
+2025-02-13 07:42:37,726 -  * Debugger is active!
+2025-02-13 07:42:37,730 -  * Debugger PIN: 511-610-300
+2025-02-13 07:44:01,131 -  * Detected change in '/Users/dark/Downloads/taller-2/app.py', reloading
+2025-02-13 07:44:01,194 -  * Restarting with stat
+2025-02-13 07:44:01,400 -  * Debugger is active!
+2025-02-13 07:44:01,403 -  * Debugger PIN: 511-610-300
+2025-02-13 07:44:02,449 -  * Detected change in '/Users/dark/Downloads/taller-2/app.py', reloading
+2025-02-13 07:44:02,509 -  * Restarting with stat
+2025-02-13 07:44:02,736 -  * Debugger is active!
+2025-02-13 07:44:02,739 -  * Debugger PIN: 511-610-300
+2025-02-13 07:44:41,808 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-13 07:44:41,808 - [33mPress CTRL+C to quit[0m
+2025-02-13 07:44:41,808 -  * Restarting with stat
+2025-02-13 07:44:41,996 -  * Debugger is active!
+2025-02-13 07:44:42,000 -  * Debugger PIN: 511-610-300
